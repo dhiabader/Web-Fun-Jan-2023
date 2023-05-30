@@ -32,7 +32,7 @@ class User:
             self.gold_card_points -= amount
         else:
             print(f"{self.first_name} does not have enough points.")
-        return self
+        return selfllhl
 
 # user 1
 john_doe = User("John", "Doe", "jdoe@email.com", 25)
